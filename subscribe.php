@@ -18,9 +18,6 @@
 
 < ?php require header.php ?>
 
-
-
-
 <div class="container">
         <div class="row mt-5">
             <div class="col-4 offset-1" id="leftSide">
@@ -35,8 +32,7 @@
                         <div class="mb-3">
                             <label for="nickname" class="form-label">Pseudo : </label>
                             <input type="nickname" class="form-control" id="nickname" name="nickname"  aria-describedby="nicknameHelp" >
-                        </div> 
-                        <div class="mb-3">
+                            <div class="mb-3">
                         <label for="inputPassword" class="form-label">Mot de passe</label>
                         <input type="password" class="form-control" name="password" id="inputPassword1">
                         </div>
@@ -51,6 +47,8 @@
             </div>
         </div>
     </div>
+
+
 
 
 
