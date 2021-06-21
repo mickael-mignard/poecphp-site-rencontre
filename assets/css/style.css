@@ -1,0 +1,30 @@
+/*Ajustement des images pour le carrousel d'intro */
+* {
+    font-family: 'Quando', serif;;
+}
+
+.carrouselIntro img {
+    height: 80vh;
+    object-fit: cover; 
+    }
+
+.imgTestimonial{
+    height:250px;
+    object-fit: cover; 
+}
+
+.textCarousel{
+    color:black;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(173,173,182,1) 26%, rgba(13,85,99,1) 100%);
+    font-weight: bolder;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-shadow: 1px 1px #bbb;
+}
+
+
+ul li {
+    list-style: none;
+}
+
