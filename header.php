@@ -19,7 +19,7 @@
         <!-- Main title and slogan -->
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top shadow" id="navbar-custom">
+        <nav class="navbar navbar-expand-md navbar-dark shadow" id="navbar-custom">
             <!-- Container wrapper -->
             <div class="container-fluid d-flex flex-wrap justify-content-between">
                 <!-- Navbar brand -->
