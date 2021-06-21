@@ -24,7 +24,7 @@
             <div class="container-fluid d-flex flex-wrap justify-content-between">
                 <!-- Navbar brand -->
                 <div class="brand order-2 order-md-1">
-                    <a class="navbar-brand mt-lg-0 text-dark" href="index.php"><img class="my-0" src="assets/img/logo.png" alt="logo" height="60px" weight="60px">Comme chien et chat</a>
+                    <a class="navbar-brand mt-lg-0 text-dark" href="index.php"><img class="my-0" src="assets/img/logo.png" alt="logo" height="60px" weight="60px"></a>
                 </div>
                 <!-- Toggle button -->
                 <div class="menu-burger order-1">

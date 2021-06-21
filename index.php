@@ -45,7 +45,29 @@
 </section>
 <!--fin de la section carousel d'intro-->
 
-<!------------------------------- Les cards -------------------------------------->
+<!--section les objectifs du site-->
+<section>
+    <div class="container text-center pt-5">
+        <h1>Comme Chien et Chat</h1>
+           <h2>Le premier site de rencontre dédié aux relations inter-espèces</h2>
+
+        <p class="pt-5">Nous avons créé Comme Chien et Chats en nous rendant compte que les sites de rencontres étaient systématiquement dédiés aux relations dites "classiques". <br>
+            Entre chiens males et femelles, entre chats males ou entre chats femelles uniquement. Mais quant était-il pour les amours interespèces ? Ces dernières étaient les grandes oubliées. C'est de là que nous avons décidés de créer ce site.</p>
+        <p> Au départ, personne ne voulait croire en notre projet. Et 5 ans après son lancement, le site est toujours présent ! <br>
+            Comme des chiffres parlent mieux, que de longs discours en voici quelques uns.
+        <ul>
+            <li>2 524 couples</li>
+            <li>478 bébés adoptés par ces couples</li>
+            <li>14 7866 inscrits</li>
+            <li>458 engagements durables</li>
+        </ul>
+        </p>
+    </div>
+</section>
+<!--fin de la section des objectifs du site-->
+
+
+<!-- Derniers arrivés -->
 <section class="portfolio py-5" id="portfolio">
     <div class="container-lg py-4">
       <div class="row justify-content-center">
@@ -82,54 +104,7 @@
             </div>
             
             <button class="get-btn" data-bs-toggle="modal" data-bs-target="#exampleModalSiteAgence">Voir profil !</button>
-
-            <!--modal profil -->
-
-            <div class="modal fade" id="exampleModalSiteAgence" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Chat</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="img/amri.store.png" class="card-img-top border border-muted" alt="amri-dev.site">
-                    <h2 class="text-primary text-uppercase ">Site Agence Web</h2>
-                    <h2 class="fs-4">Amri.</h2>
-                    <h4 style="color: #93A4AA;">- Stack Technique -</h4>
-                    <p class="mt-4 text-muted">
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        react-bootstrap
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        styled-components
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        React Router
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        React
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        fortawesome
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        material-ui
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        Autres
-                      </button>
-                    </p>
-                  </div>
-                  <div class="modal-footer">                 
-                      <a href="#" class="btn btn-primary text-decoration-none text-white" role="button" data-bs-dismiss="modal">
-                        QUITTER !
-                      </a>                    
-                  </div>
-                </div>
-              </div>
-            </div>
-
+            
           </div>
         </div>
 
@@ -153,61 +128,10 @@
                     <li class="list-group-item">Taille : </li>
                     <li class="list-group-item">Type :</li>
                     <li class="list-group-item">Sexe : Male</li>
-                </ul>
+                /ul>
             </div>
-            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir profil !</button>
-          
-            <!--modal-->
-
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Chien</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="img/chien.jpg" class="card-img-top border border-muted" alt="amri-dev.site">
-                    <h2 class="text-primary text-uppercase ">Site Web personnel responsive</h2>
-                    <h2 class="fs-4">Amri.</h2>
-                    <h4 style="color: #93A4AA;">- Stack Technique -</h4>
-                    <p class="mt-4 text-muted">
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        
-                        mdbreact
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        ui-neumorphism
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        React Router
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        React
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        fortawesome
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        material-ui
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        Autres ..
-                      </button>
-                      
-                    </p>
-                  </div>
-                  <div class="modal-footer">     
-                      <a href="https://github.com/amri-coder/amri-dev" class="btn btn-secondary text-decoration-none text-white" role="button">
-                        CODE SOURCE
-                      </a>
-                      <a href="#" class="btn btn-primary text-decoration-none text-white" role="button" data-bs-dismiss="modal">
-                        QUITTER !
-                      </a>                    
-                  </div>
-                </div>
-              </div>
-            </div>   
+            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#">Voir profil !</button>
+                   
           </div>
         </div>
 
@@ -233,79 +157,13 @@
                 </ul>
             </div>
            
-            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#exampleModalEcommerce">Voir profil !</button>
-
-            <!--modal-->
-
-            <div class="modal fade" id="exampleModalEcommerce" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">chat</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="img/e-commerce.png" class="card-img-top border border-muted" alt="amri-dev.site">
-                    <h2 class="text-primary text-uppercase ">chat</h2>
-                    <h2 class="fs-4">Amri.</h2>
-                    <h4 style="color: #93A4AA;">- Stack Technique -</h4>
-                    <p class="mt-4 text-muted">
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        HTML 5 / CSS 3
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        Bootstrap
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        JavaScript
-                      </button>
-                      <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark">
-                        Autres ..
-                      </button>
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                 
-                      <a href="https://github.com/amri-coder/e-commerce" class="btn btn-secondary text-decoration-none text-white" role="button">
-                        CODE SOURCE
-                      </a>
-
-                      <a href="#" class="btn btn-primary text-decoration-none text-white" role="button" data-bs-dismiss="modal">
-                        QUITTER !
-                      </a>                    
-                  </div>
-                </div>
-              </div>
-          </div>
+            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#">Voir profil !</button>          
         </div>
       </div>
       </div>
     </div>
   </section>
-<!---------------------------- Fin les cards -------------------------------------> 
-
-<!--section les objectifs du site-->
-<section>
-    <div class="container text-center pt-5">
-        <h1> Comme Chiens et Chats le premier site de rencontre dédié aux relations inter-espèces</h1>
-
-        <p class="pt-5">Nous avons créé Comme Chien et Chats en nous rendant compte que les sites de rencontres étaient systématiquement dédiés aux relations dites "classiques". <br>
-            Entre chiens males et femelles, entre chats males ou entre chats femelles uniquement. Mais quant était-il pour les amours interespèces ? Ces dernières étaient les grandes oubliées. C'est de là que nous avons décidés de créer ce site.</p>
-        <p> Au départ, personne ne voulait croire en notre projet. Et 5 ans après son lancement, le site est toujours présent ! <br>
-            Comme des chiffres parlent mieux, que de longs discours en voici quelques uns.
-        <ul>
-            <li>2 524 couples</li>
-            <li>478 bébés adoptés par ces couples</li>
-            <li>14 7866 inscrits</li>
-            <li>458 engagements durables</li>
-        </ul>
-        </p>
-    </div>
-</section>
-
-<!--fin de la section des objectifs du site-->
-
-
+<!-- Derniers arrivés -->
 
 <!-- testimonial -->
 
