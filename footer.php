@@ -2,15 +2,13 @@
  <footer class="pt-1 mt-5 text-black shadow">
      <!-- Row section -->
      <div class="container text-md-start ">
-         <div class="row mt-4">
+         <div class="row mt-4" id="forma">
              <div class="col-md-4 col-lg-4 mx-auto mb-4 text-center">
                  <h6 class="text-uppercase fw-bold mb-4">
                      <i class="fas fa-cat"></i> Comme chien et chat
                  </h6>
                  <p>Comme chien et chat, site de rencontres d'animaux, ce site est gratuit et existe pour des rencontres amicales ou sérieuses entre animaux.
-                     Inscrivez-vous et découvrez nos animaux qui pourraient être intéressés par le vôtre.
-                     Si vous cherchez une rencontre jeux, une saillie pour chien, pour chat, Comme chien et chat est l'endroit idéal.
-                     Votre animal est seul ? il a besoin de jouer avec un de ses semblables dans son village ? Consultez nos annonces d'animaux, votre animal aura peut être sa chance ici..</p>
+                     Inscrivez-vous et découvrez nos animaux qui pourraient être intéressés par le vôtre.</p>
              </div>
              <!--Infos -->
              <div class="col-md-4 col-lg-4 ">

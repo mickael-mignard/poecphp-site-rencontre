@@ -19,13 +19,14 @@
         <!-- Main title and slogan -->
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top shadow" id="navbar-custom">
+        <nav class="navbar navbar-expand-md shadow navbar-dark" id="navbar-custom">
             <!-- Container wrapper -->
             <div class="container-fluid d-flex flex-wrap justify-content-between">
                 <!-- Navbar brand -->
                 <div class="brand order-2 order-md-1">
                     <a class="navbar-brand mt-lg-0 text-dark" href="index.php"><img class="my-0" src="assets/img/logo.png" alt="logo" height="60px" weight="60px"></a>
                 </div>
+
                 <!-- Toggle button -->
                 <div class="menu-burger order-1">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +39,7 @@
                     <ul class="navbar-nav fs-4 me-auto mb-2 mb-lg-0 categories text-center">
 
                         <li class="nav-item my-1">
-                            <a class="btn btn mx-3" href="#listesDesProfils">Listes des profils</a>
+                            <a class="btn btn mx-3" href="#listesDesProfils">Liste des profils</a>
                         </li>
                         <li class="nav-item my-1">
                             <a class="btn btn mx-3" href="#inscription">S'inscrire</a>
