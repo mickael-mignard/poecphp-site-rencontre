@@ -46,9 +46,6 @@
 <!--fin de la section carousel d'intro-->
 
 <!------------------------------- Les cards -------------------------------------->
-
-
-
 <section class="portfolio py-5" id="portfolio">
     <div class="container-lg py-4">
       <div class="row justify-content-center">
@@ -58,9 +55,6 @@
           </div>
         </div>
       </div>
-
-
-
 
       <div class="row text-center">
        
@@ -127,13 +121,10 @@
                       </button>
                     </p>
                   </div>
-                  <div class="modal-footer">
-                  
-                 
+                  <div class="modal-footer">                 
                       <a href="#" class="btn btn-primary text-decoration-none text-white" role="button" data-bs-dismiss="modal">
                         QUITTER !
-                      </a>
-                    
+                      </a>                    
                   </div>
                 </div>
               </div>
@@ -206,23 +197,17 @@
                       
                     </p>
                   </div>
-                  <div class="modal-footer">
-                  
-                      
-                 
+                  <div class="modal-footer">     
                       <a href="https://github.com/amri-coder/amri-dev" class="btn btn-secondary text-decoration-none text-white" role="button">
                         CODE SOURCE
                       </a>
-
                       <a href="#" class="btn btn-primary text-decoration-none text-white" role="button" data-bs-dismiss="modal">
                         QUITTER !
-                      </a>
-                    
+                      </a>                    
                   </div>
                 </div>
               </div>
-            </div>          
-          
+            </div>   
           </div>
         </div>
 
@@ -287,18 +272,13 @@
 
                       <a href="#" class="btn btn-primary text-decoration-none text-white" role="button" data-bs-dismiss="modal">
                         QUITTER !
-                      </a>
-                    
+                      </a>                    
                   </div>
                 </div>
               </div>
-
-
           </div>
         </div>
       </div>
-
-
       </div>
     </div>
   </section>
@@ -403,9 +383,7 @@
                                             </h5>
                                             <p class="card-text">Vanille et Caramel</p>
 
-
                                         </div>
-
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-3 boxShadow">
@@ -432,10 +410,8 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
