@@ -51,7 +51,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">QUELQUES PROFILS</span></h2>
+            <h2 class="fw-bold mb-5">Les derniers arrivées</span></h2>
           </div>
         </div>
       </div>
