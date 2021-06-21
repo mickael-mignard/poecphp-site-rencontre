@@ -9,10 +9,6 @@
     <title>Comme Chien et Chat - Index</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
-<style>
-
-
-</style>
 
 </head>
 <body>
@@ -76,8 +72,8 @@
                 Comme des chiffres parlent mieux, que de longs discours en voici quelques uns.
                     <ul>
                         <li>2 524  couples</li>
-                        <li> 1478 bébés adoptés par ces couples</li>
-                        <li> 14 7866 inscrits</li>
+                        <li>478 bébés adoptés par ces couples</li>
+                        <li>14 7866 inscrits</li>
                         <li>458 engagements durables</li>
                     </ul>
             </p>
