@@ -41,7 +41,7 @@
                             <a class="btn btn mx-3" href="#listesDesProfils">Listes des profils</a>
                         </li>
                         <li class="nav-item my-1">
-                            <a class="btn btn mx-3" href="#inscription">S'inscrire</a>
+                            <a class="btn btn mx-3" href="subscription.php">S'inscrire</a>
                         </li>
                     </ul>
                     <!-- End of nav links -->
