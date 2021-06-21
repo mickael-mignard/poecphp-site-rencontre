@@ -51,7 +51,7 @@
                 <!-- Cart -->
                 <div class="cart d-flex me-lg-3 order-1">
                     <!-- Cart icon and link to the modal window -->
-                    <a href="#"><i class="far fa-user-circle" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                    <a href="login.php"><i class="far fa-user-circle" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
                     </a>
                 </div>
                 <!-- End of cart -->
