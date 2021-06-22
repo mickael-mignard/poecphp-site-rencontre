@@ -99,7 +99,6 @@
             <div class="card">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Age : 1 ans </li>
-                    <li class="list-group-item">Taille : 25 cm</li>
                     <li class="list-group-item">Type : félidé</li>
                     <li class="list-group-item">Sexe : mâle</li>
                 </ul>
@@ -127,7 +126,6 @@
             <div class="card">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Age : 1 ans </li>
-                    <li class="list-group-item">Taille : 70 cm</li>
                     <li class="list-group-item">Type : canidé</li>
                     <li class="list-group-item">Sexe : mâle</li>
                 </ul>
