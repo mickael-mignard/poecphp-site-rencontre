@@ -8,7 +8,7 @@ if(isset($_POST['login'])){
     $formErrors = [];
     $regexNickname = '/^[a-zA-Z0-9 \-]+$/';
     // nickname
-    if (!empty($_POST['nickname'])) { // si le champ n'est pas vide
+    if (!empty($_POST['nickname'])) {
         if (preg_match($regexNickname, $_POST['nickname'])) {
             $nickname = htmlspecialchars($_POST['nickname']);
         } else {
@@ -18,7 +18,7 @@ if(isset($_POST['login'])){
         $formErrors['nickname'] = 'Veuillez entrer votre pseudo';
     }  
     // password
-    if (!empty($_POST['password'])) { // le champ n'est pas vide
+    if (!empty($_POST['password'])) { 
            $password = htmlspecialchars($_POST['password']);   
     } else {
         $formErrors['password'] = 'Veuillez entrer votre mot de passe';

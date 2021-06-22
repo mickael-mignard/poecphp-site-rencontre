@@ -162,3 +162,9 @@ nav .categories {
 }
 }
 
+
+/* Page Inscription */
+.formErrors{
+  color: red;
+  font-size: 0.5em;
+}
