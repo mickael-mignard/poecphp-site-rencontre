@@ -7,8 +7,8 @@
                  <h6 class="text-uppercase fw-bold mb-4" style="color:#68BCDE">
                      <i class="fas fa-cat"></i> Comme chien et chat
                  </h6>
-                 <p>Comme chien et chat, site de rencontres d'animaux, ce site est gratuit et existe pour des rencontres amicales ou sérieuses entre animaux.
-                     Inscrivez-vous et découvrez nos animaux qui pourraient être intéressés par le vôtre.</p>
+                 <p>Comme chien et chat, site de rencontres spécialisé en Inter-espèces. Ce site est gratuit et existe pour des rencontres amicales ou plus si affinité.
+                     Inscrivez-vous et découvrez si votre coeur fera BOOM pour l'un de nos membres.</p>
              </div>
              <!--Infos -->
              <div class="col-md-4 col-lg-4 ">

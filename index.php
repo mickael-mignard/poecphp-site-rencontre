@@ -87,7 +87,7 @@
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpg" class="card-img-top" alt="chat">
             </div>
-            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Chat</h3>
+            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Caramail</h3>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -116,7 +116,7 @@
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chien2.jpg" class="card-img-top" alt="Chien">
             </div>
-            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Chien</h3>
+            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Rexregis</h3>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -142,7 +142,7 @@
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpeg" height="50%" weight="50%" class="card-img-top" alt="Chat">
             </div>
-            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Chat</h3>
+            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Hortensia</h3>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -219,7 +219,7 @@
                                         <h4 class="text-center pt-2"> <img class="img imgTestimonial img-thumbnail shadow p-3 mb-5 bg-black rounded" alt="100%x280" src="assets/img/FluffyBunny.jpg">
                                         </h4>
                                         <div class="card-body">
-                                            <h5 class="card-title">Trop
+                                            <h5 class="card-title">
                                                 Nous ne savons pas quoi dire... Hormis que le bonheur est à porté de pattes!
                                                 !</h5>
                                             <p class="card-text">
@@ -252,7 +252,7 @@
                                         </h4>
                                         <div class="card-body">
                                             <h5 class="card-title">
-                                                Quand on pense qu'on se pensaient isolés et seuls. Ici nous avons trouvé des animaux partageant les mêmes goût. Une révélation et un bel amour !</h5>
+                                                Et dire qu'on se pensait isolés et seuls. Ici nous avons trouvé des animaux partageant les mêmes goûts. Une révélation et un bel amour !</h5>
                                             <p class="card-text">Pupuce et Random</p>
 
 
