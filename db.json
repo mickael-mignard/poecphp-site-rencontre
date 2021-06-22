@@ -14,7 +14,7 @@
         "loving" : "Faire mes griffes/ grignoter les chaussures",
         "hating" :"Dormir par terre",
         "food" : "Les oiseaux, mulots et autres petits animaux",
-        "description" : "Le Chien à pieds (Felis nigripes), parfois Chien aux pattes blondes, est une espèce de félins sauvages, d'allure trapue au pelage tacheté"
+        "description" : "Très joueur et très casanier, je recherche le chat de mes rêves pour des parties de chasse endiablées"
     },
     {
         "id": "1",
@@ -31,7 +31,7 @@
         "loving" : "Jouer à la balle",
         "hating" :"Les laisses",
         "food" : "La tarte aux poireaux et jus de poubelle",
-        "description" : "Très câlineuse, protectrice joueuse je ne me sépare jamais de mon jouet fétiche, je suis a la recherche d'une Barbelette pour combler mes envi"
+        "description" : "Très câline, protectrice et joueuse je ne me sépare jamais de mon jouet fétiche, je suis a la recherche d'une Barbelette pour combler mes envies"
     },
     {
         "id": "2",
@@ -48,7 +48,7 @@
         "loving" : "Jouer à la balle",
         "hating" :"Les laisses",
         "food" : "La tarte aux poireaux et jus de poubelle",
-        "description" : "Bonjour, Je suis un chihuahua malheureusement trop grand pour ma race je suis inscrit au c3c mais pas confirmé mes parents sont tous les deux c .."
+        "description" : "Bonjour, malgré un leger handicap physique je suis toujours partant pour jouer à la balle et partager une bonne tarte aux poireaux jus de poubelle"
     },
     {
         "id": "3",
@@ -65,6 +65,6 @@
         "loving" : "Jouer à la balle",
         "hating" :"Les laisses",
         "food" : "La tarte aux poireaux et jus de poubelle",
-        "description" : "Je suis un yorkshire LOF mâle de 13 mois couleur noir et feu je suis a la recherche d'une yorkshirette pour combler mes envi ..."
+        "description" : "Malgré mon nom je suis bel et bien un chat qui ronronnera de plaisir à la rencontre du chien de ses rêves"
     }
 ]
