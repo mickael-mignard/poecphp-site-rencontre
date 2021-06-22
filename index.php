@@ -70,7 +70,7 @@
 <!-- Derniers arrivés -->
 
 
-<section class="portfolio py-5" id="portfolio">
+<section class="port py-5" id="port">
     <div class="container-lg py-4">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -83,7 +83,7 @@
       <div class="row text-center">
        
         <div class="col-md-6 col-lg-4 mb-4">
-          <div class="services-item shadow-sm p-4 rounded bg-white">
+          <div class="services-item shadow p-4 rounded bg-white">
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpg" class="card-img-top" alt="chat">
             </div>
@@ -112,7 +112,7 @@
 
 
         <div class="col-md-6 col-lg-4 mb-4">
-          <div class="services-item shadow-sm p-4 rounded bg-white">
+          <div class="services-item shadow p-4 rounded bg-white">
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chien2.jpg" class="card-img-top" alt="Chien">
             </div>
@@ -138,7 +138,7 @@
         </div>
 
         <div class="col-md-6 col-lg-4 mb-4">
-          <div class="services-item shadow-sm p-4 rounded bg-white">
+          <div class="services-item shadow p-4 rounded bg-white">
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpeg" height="50%" weight="50%" class="card-img-top" alt="Chat">
             </div>

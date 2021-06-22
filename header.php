@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon1.png" />
     <title>Comme Chien et Chat</title>
 </head>
 
@@ -36,11 +37,12 @@
                 <!-- Collapsible wrapper -->
                 <div id="navbarNav" class="collapse navbar-collapse order-2 order-md-1">
                     <!-- Nav links -->
-                    <ul class="navbar-nav fs-4 me-auto mb-2 mb-lg-0 categories text-center">
+                    <ul class="navbar-nav fs-4 me-auto mb-2 mb-lg-0 categories justify-center">
 
                         <li class="nav-item my-1">
                             <a class="btn btn mx-3" href="#listesDesProfils">Liste des profils</a>
                         </li>
+                        
                         <li class="nav-item my-1">
                             <a class="btn btn mx-3" href="#inscription">S'inscrire</a>
                         </li>
@@ -49,12 +51,13 @@
                 </div>
                 <!-- End of collapsible wrapper -->
 
-                <!-- Cart -->
+                <!-- Cart --> 
                 <div class="cart d-flex me-lg-3 order-1">
                     <!-- Cart icon and link to the modal window -->
-                    <a href="#"><i class="far fa-user-circle" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                   
+                    <a href="#"><img src="./assets/img/user.png" alt="login" height="50" width="50">
                     </a>
-                </div>
+                </div> 
                 <!-- End of cart -->
             </div>
             <!-- Container wrapper -->

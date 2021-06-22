@@ -156,4 +156,9 @@ footer {
   justify-content: flex-start;
   align-content: center;
 }
+@media (min-width: 700px){
+nav .categories {
+  padding-left: 400px;
+}
+}
 
