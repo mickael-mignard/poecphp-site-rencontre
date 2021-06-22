@@ -6,7 +6,7 @@
         "password": "admin",
         "city": "Paris",
         "age": "50",
-        "picture": "",
+        "picture": "img/O.jpg",
         "species": "dog",
         "sex": "male"
     },
@@ -17,7 +17,7 @@
         "password": "mdp",
         "city": "Paris",
         "age": "40",
-        "picture": "",
+        "picture": "img/1.jpg",
         "species": "cat",
         "sex": "female"
     },
@@ -26,10 +26,21 @@
         "nickname": "aa",
         "email": "aa@gmail.com",
         "password": "aa",
-        "city": "rr",
+        "city": "Bordeaux",
         "age": "35",
-        "picture": "",
-        "species": "canide",
-        "sex": "M\u00e2le"
+        "picture": "img/2.jpg",
+        "species": "dog",
+        "sex": "Male"
+    },
+    {
+        "id": "3",
+        "nickname": "Caniche",
+        "email": "aa@gmail.com",
+        "password": "aa",
+        "city": "Lille",
+        "age": "35",
+        "picture": "img/3.jpg",
+        "species": "cat",
+        "sex": "Male"
     }
 ]

@@ -44,7 +44,20 @@
                         </li>
                         
                         <li class="nav-item my-1">
+                        <?php
+                        if(!isset($_REQUEST['login'])){
+                        ?>
                             <a class="btn btn mx-3" href="subscription.php">S'inscrire</a>
+                        <?php
+                        }
+                        else
+                        {
+                        ?>
+                            <a class="btn btn mx-3" href="myprofile.php">modifier mon profil</a>
+                          
+                        <?php
+                        }
+                        ?>
                         </li>
                     </ul>
                     <!-- End of nav links -->
