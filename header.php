@@ -48,7 +48,7 @@
                         
                         <li class="nav-item my-1">
                         <?php
-                        if(!isset($_REQUEST['login'])){
+                        if((!isset($_REQUEST['login']) || empty($_POST['nickname']) || empty($_POST['email']) || empty($_POST['password']))){
                         ?>
                             <a class="btn btn mx-3" href="subscription.php">S'inscrire</a>
                         <?php
@@ -60,6 +60,7 @@
                             
                         <?php
                         }
+                        
                         ?>
                         </li>
                     </ul>
