@@ -34,7 +34,7 @@ if(isset($_POST['login'])){
     }    
 }
 ?>
-<div class="container">
+<div class="container-fluid">
     <div class="row mt-5">
         <div class="col-4 offset-1" id="leftSide">
             <img class="img-fluid" src="assets/img/catDogLogin.jpg" />
@@ -55,7 +55,7 @@ if(isset($_POST['login'])){
                             <p class="formErrors"><?= (isset($formErrors['connection'])) ? $formErrors['connection'] : ''; ?></p>
                         <div class="mb-3">
                             <button class="btn btn-secondary" type="submit" name="subscribe">Inscription</button>
-                            <button class="btn btn-secondary" type="submit" name="login">Connexion</button>
+                            <button class="btn btn-secondary" type="submit" name="connexion">Connexion</button>
                         </div>
                 </form>
             </div>
