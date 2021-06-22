@@ -40,7 +40,7 @@
                     <ul class="navbar-nav fs-4 me-auto mb-2 mb-lg-0 categories justify-center">
 
                         <li class="nav-item my-1">
-                            <a class="btn btn mx-3" href="#listesDesProfils">Liste des profils</a>
+                            <a class="btn btn mx-3" href="profilList.php">Liste des profils</a>
                         </li>
                         
                         <li class="nav-item my-1">
