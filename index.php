@@ -219,7 +219,7 @@
                                         <h4 class="text-center pt-2"> <img class="img imgTestimonial img-thumbnail shadow p-3 mb-5 bg-black rounded" alt="100%x280" src="assets/img/FluffyBunny.jpg">
                                         </h4>
                                         <div class="card-body">
-                                            <h5 class="card-title">Trop
+                                            <h5 class="card-title">
                                                 Nous ne savons pas quoi dire... Hormis que le bonheur est à porté de pattes!
                                                 !</h5>
                                             <p class="card-text">
@@ -252,7 +252,7 @@
                                         </h4>
                                         <div class="card-body">
                                             <h5 class="card-title">
-                                                Quand on pense qu'on se pensaient isolés et seuls. Ici nous avons trouvé des animaux partageant les mêmes goût. Une révélation et un bel amour !</h5>
+                                                Et dire qu'on se pensait isolés et seuls. Ici nous avons trouvé des animaux partageant les mêmes goûts. Une révélation et un bel amour !</h5>
                                             <p class="card-text">Pupuce et Random</p>
 
 
