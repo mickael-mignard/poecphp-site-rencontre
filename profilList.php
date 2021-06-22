@@ -52,8 +52,8 @@ function getUserById($id, $array) {
             </div>
             <div class="col-md-6 mt-5">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title text-uppercase font-weight-light"><?= $user['species'] ?></h5>
+                    <p class="card-text"><?= $user['description'] ?></p>
                 
                 </div>
 
@@ -71,7 +71,7 @@ function getUserById($id, $array) {
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body mx-auto">
-                        <ul>
+                        <ul class="text-center">
                        <img src="assets/img/<?= $user['id'] ?>.jpg">
                        </ul>
                        <ul class="mx-auto">
@@ -80,6 +80,11 @@ function getUserById($id, $array) {
                         <li class="mb-2 text-center">Type : <?= $user['species'] ?></li>
                         <li class="mb-2 text-center" >Age : <?= $user['age'] ?></li>
                         <li class="mb-2 text-center">Sexe : <?= $user['sex'] ?></li>
+                        <li class="mb-2 text-center">yeux : <?= $user['eyeColor'] ?></li>
+                        <li class="mb-2 text-center">chevaux : <?= $user['hairColor'] ?></li>
+                        <li class="mb-2 text-center">Aime : <?= $user['loving'] ?></li>
+                        <li class="mb-2 text-center">Déteste : <?= $user['hating'] ?></li>
+                        <li class="mb-2 text-center">Food : <?= $user['food'] ?></li>
                         </ul>
                         </div>
                         <div class="modal-footer">
