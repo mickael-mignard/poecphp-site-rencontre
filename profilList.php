@@ -28,7 +28,7 @@ function getUserById($id, $array) {
 
 
 <div class="container-fluid ms-2 mt-3">
-<h1 class="text-center m-5">Liste des profils</h1>
+<h1 class="text-center m-5" id="listeProfils">Liste des profils</h1>
 <?php
     for($i = 0; $i< count($userArray); $i++){
         $user = getUserById($i, $userArray);

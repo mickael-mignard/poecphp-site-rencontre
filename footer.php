@@ -4,7 +4,7 @@
      <div class="container text-md-start ">
          <div class="row mt-4" id="forma">
              <div class="col-md-4 col-lg-4 mx-auto mb-4 text-center">
-                 <h6 class="text-uppercase fw-bold mb-4">
+                 <h6 class="text-uppercase fw-bold mb-4" style="color:#68BCDE">
                      <i class="fas fa-cat"></i> Comme chien et chat
                  </h6>
                  <p>Comme chien et chat, site de rencontres d'animaux, ce site est gratuit et existe pour des rencontres amicales ou sérieuses entre animaux.
@@ -12,27 +12,28 @@
              </div>
              <!--Infos -->
              <div class="col-md-4 col-lg-4 ">
-                 <h6 class="text-uppercase fw-bold mb-4 text-center">Contact</h6>
+                 <h6 class="text-uppercase fw-bold mb-4 text-center" style="color:#68BCDE">Contact</h6>
                  <div class="contact-flex">
-                     <p><i class="fas fa-home me-3"></i>Versailles, 78000</p>
-                     <p><i class="fas fa-at me-3"></i>info@commechienetchat.com</p>
-                     <p><i class="fas fa-phone me-3 "></i> 01 23 56 88 99</p>
-                     <p><i class="fas fa-print me-3"></i> 01 23 56 89 98</p>
+                     <p><i class="fas fa-home me-3" style="color:#3B5998;"></i>Versailles, 78000</p>
+                     <p><i class="fas fa-at me-3" style="color:#55ACEE;"></i>info@commechienetchat.com</p>
+                     <p><i class="fas fa-phone me-3 " style="color:#DD4B39;"></i> 01 23 56 88 99</p>
+                     <p><i class="fas fa-print me-3" style="color:#FFC192;"></i> 01 23 56 89 98</p>
                  </div>
              </div>
              <!-- End Infos -->
              <!-- Social media -->
              <div class="col-md-4 col-lg-4  text-center">
-                 <h6 class="fw-bold">Get connected with us on social networks:</h6>
+                 <h6 class="fw-bold" style="color:#68BCDE">Get connected with us on social networks:</h6>
                  <div>
-                     <a href="#" class="me-4 ">
-                         <i class="fab fa-facebook-f"></i>
+                     <a href="#" class="me-2" style="color:#3B5998;">
+                         <i class="fab fa-facebook-square fa-3x"></i>
                      </a>
-                     <a href="#" class="me-4">
-                         <i class="fab fa-twitter"></i>
+                     <a href="#" class="me-2" style="color:#55ACEE;">
+                         
+                         <i class="fab fa-twitter-square fa-3x"></i>
                      </a>
-                     <a href="#" class="me-4">
-                         <i class="fab fa-instagram"></i>
+                     <a href="#" class="me-2" style="color:#DD4B39;">
+                         <i class="fab fa-instagram-square fa-3x"></i>
                      </a>
                  </div>
              </div>
