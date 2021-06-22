@@ -8,7 +8,13 @@
         "age": "50",
         "picture": "",
         "species": "dog",
-        "sex": "male"
+        "sex": "male",
+        "eyeColor" :"Jaune",
+        "hairColor": "Blanc",
+        "loving" : "Faire mes griffes/ grignoter les chaussures",
+        "hating" :"Dormir par terre",
+        "food" : "Les oiseaux, mulots et autres petits animaux",
+        "description" : ""
     },
     {
         "id": "1",
@@ -19,7 +25,13 @@
         "age": "40",
         "picture": "",
         "species": "cat",
-        "sex": "female"
+        "sex": "female",
+        "eyeColor" :"Marron",
+        "hairColor": "Noir",
+        "loving" : "Jouer à la balle",
+        "hating" :"Les laisses",
+        "food" : "La tarte aux poireaux et jus de poubelle",
+        "description" : ""
     },
     {
         "id": "2",
@@ -30,6 +42,13 @@
         "age": "35",
         "picture": "",
         "species": "canide",
-        "sex": "M\u00e2le"
+        "sex": "Male",
+        "eyeColor" :"bleu",
+        "hairColor": "bicolor",
+        "loving" : "dormir",
+        "hating" :"pluie",
+        "food" : "lait",
+        "description" : ""
+        
     }
 ]
