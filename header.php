@@ -55,7 +55,7 @@
                 <div class="cart d-flex me-lg-3 order-1">
                     <!-- Cart icon and link to the modal window -->
                    
-                    <a href="#"><img src="./assets/img/user.png" alt="login" height="50" width="50">
+                    <a href="login.php"><img src="./assets/img/user.png" alt="login" height="50" width="50">
                     </a>
                 </div> 
                 <!-- End of cart -->

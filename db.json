@@ -1,0 +1,24 @@
+[
+    {
+        "id": "0",
+        "nickname": "admin",
+        "email": "admin@gmail.com",
+        "password": "admin",
+        "city": "Paris",
+        "age": "50",
+        "picture": "",
+        "species": "dog",
+        "sex": "male"
+    },
+    {
+        "id": "1",
+        "nickname": "untel",
+        "email": "untel@gmail.com",
+        "password": "mdp",
+        "city": "Paris",
+        "age": "40",
+        "picture": "",
+        "species": "cat",
+        "sex": "female"
+    }        
+]
