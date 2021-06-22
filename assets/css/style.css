@@ -1,4 +1,6 @@
 /* HEADER */
+
+
 nav .li {
     display:inline-block;min-width:50px;
 }
@@ -17,7 +19,6 @@ nav li a:after {
     margin: auto;
     height: 4px;
     width: 0;
-    background: transparent;
     transition: width .5s ease, background-color .5s ease;
   }
   nav li a:hover:after {
@@ -56,15 +57,8 @@ ul li {
 }
 
 /*   Les Cards  */
-a {
-    text-decoration: none;
-}
-.pager {
-    margin-top: 2%;
-}
-a:hover {
-    color: white;
-}
+
+
 
 .accueil img
 {
@@ -99,6 +93,10 @@ a:hover {
             transform:skew(8deg) rotate(3deg);
 }
 
+#header-top {
+  background: linear-gradient(to right, #E55D87, #5FC3E4);
+}
+
 /* button get-btn */
 
 .services-item .get-btn{
@@ -111,7 +109,7 @@ a:hover {
     opacity: 1;   
 }
 .services-item .get-btn{
-  background-color: #31D2F2;
+  background-color: #E55D87;
   transform: translateY(20px);
   opacity: 0;
   transition: 0.3s all;
@@ -151,11 +149,16 @@ footer {
     background-color: #F5F4EF
 }
 
-
-@media (max-width: 768px) {
-  .services-item img {
-    border: none;
-  }
+.contact-flex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
 }
-
+@media (min-width: 700px){
+nav .categories {
+  padding-left: 400px;
+}
+}
 
