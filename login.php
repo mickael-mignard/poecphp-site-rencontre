@@ -34,7 +34,7 @@ if(isset($_POST['login'])){
     }    
 }
 ?>
-<div class="container">
+<div class="container-fluid">
     <div class="row mt-5">
         <div class="col-4 offset-1" id="leftSide">
             <img class="img-fluid" src="assets/img/catDogLogin.jpg" />
