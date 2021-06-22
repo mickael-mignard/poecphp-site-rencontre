@@ -11,10 +11,10 @@
         "sex": "mâle",
         "eyeColor": "Jaune",
         "hairColor": "Blanc",
-        "loving" : "Faire mes griffes/ grignoter les chaussures",
-        "hating" :"Dormir par terre",
-        "food" : "Les oiseaux, mulots et autres petits animaux",
-        "description" : "Le Chien à pieds (Felis nigripes), parfois Chien aux pattes blondes, est une espèce de félins sauvages, d'allure trapue au pelage tacheté"
+        "loving": "Faire mes griffes/ grignoter les chaussures",
+        "hating": "Dormir par terre",
+        "food": "Les oiseaux, mulots et autres petits animaux",
+        "description": "Le Chien à pieds (Felis nigripes), parfois Chien aux pattes blondes, est une espèce de félins sauvages, d'allure trapue au pelage tacheté"
     },
     {
         "id": "1",
@@ -28,10 +28,10 @@
         "sex": "femelle",
         "eyeColor": "Marron",
         "hairColor": "Noir",
-        "loving" : "Jouer à la balle",
-        "hating" :"Les laisses",
-        "food" : "La tarte aux poireaux et jus de poubelle",
-        "description" : "Très câlineuse, protectrice joueuse je ne me sépare jamais de mon jouet fétiche, je suis a la recherche d'une Barbelette pour combler mes envi"
+        "loving": "Jouer à la balle",
+        "hating": "Les laisses",
+        "food": "La tarte aux poireaux et jus de poubelle",
+        "description": "Très câlineuse, protectrice joueuse je ne me sépare jamais de mon jouet fétiche, je suis a la recherche d'une Barbelette pour combler mes envi"
     },
     {
         "id": "2",
@@ -43,12 +43,12 @@
         "picture": "img/2.jpg",
         "species": "dog",
         "sex": "Male",
-        "eyeColor" :"Marron",
+        "eyeColor": "Marron",
         "hairColor": "Noir",
-        "loving" : "Jouer à la balle",
-        "hating" :"Les laisses",
-        "food" : "La tarte aux poireaux et jus de poubelle",
-        "description" : "Bonjour, Je suis un chihuahua malheureusement trop grand pour ma race je suis inscrit au c3c mais pas confirmé mes parents sont tous les deux c .."
+        "loving": "Jouer à la balle",
+        "hating": "Les laisses",
+        "food": "La tarte aux poireaux et jus de poubelle",
+        "description": "Bonjour, Je suis un chihuahua malheureusement trop grand pour ma race je suis inscrit au c3c mais pas confirmé mes parents sont tous les deux c .."
     },
     {
         "id": "3",
@@ -60,11 +60,27 @@
         "picture": "img/3.jpg",
         "species": "cat",
         "sex": "Male",
-        "eyeColor" :"blue",
+        "eyeColor": "blue",
         "hairColor": "Noir",
-        "loving" : "Jouer à la balle",
-        "hating" :"Les laisses",
-        "food" : "La tarte aux poireaux et jus de poubelle",
-        "description" : "Je suis un yorkshire LOF mâle de 13 mois couleur noir et feu je suis a la recherche d'une yorkshirette pour combler mes envi ..."
+        "loving": "Jouer à la balle",
+        "hating": "Les laisses",
+        "food": "La tarte aux poireaux et jus de poubelle",
+        "description": "Je suis un yorkshire LOF mâle de 13 mois couleur noir et feu je suis a la recherche d'une yorkshirette pour combler mes envi ..."
+    },
+    {
+        "id": "4",
+        "nickname": "Tintin",
+        "email": "tintin@gmail.com",
+        "password": "mdp",
+        "city": "Paris",
+        "age": "30",
+        "species": "canidé",
+        "sex": "mâle",
+        "eyeColor": "",
+        "hairColor": "",
+        "loving": "",
+        "hating": "",
+        "food": "",
+        "description": ""
     }
 ]

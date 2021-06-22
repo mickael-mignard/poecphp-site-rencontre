@@ -46,13 +46,13 @@ if(isset($_POST['login'])){
                     <div class="mb-3">
                         <label for="nickname" class="form-label">Pseudo</label>
                         <input type="nickname" class="form-control" id="nickname" name="nickname" aria-describedby="nicknameHelp">
-                        <p><?= (isset($formErrors['nickname'])) ? $formErrors['nickname'] : ''; ?></p>
+                        <p class="formErrors"><?= (isset($formErrors['nickname'])) ? $formErrors['nickname'] : ''; ?></p>
                         <div class="mb-3">
                             <label for="inputPassword" class="form-label">Mot de passe</label>
                             <input type="password" class="form-control" name="password" id="inputPassword1">
-                            <p><?= (isset($formErrors['password'])) ? $formErrors['password'] : ''; ?></p>
+                            <p class="formErrors"><?= (isset($formErrors['password'])) ? $formErrors['password'] : ''; ?></p>
                         </div>
-                            <p><?= (isset($formErrors['connection'])) ? $formErrors['connection'] : ''; ?></p>
+                            <p class="formErrors"><?= (isset($formErrors['connection'])) ? $formErrors['connection'] : ''; ?></p>
                         <div class="mb-3">
                             <button class="btn btn-secondary" type="submit" name="subscribe">Inscription</button>
                             <button class="btn btn-secondary" type="submit" name="login">Connexion</button>

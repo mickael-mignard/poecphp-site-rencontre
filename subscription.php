@@ -104,6 +104,7 @@ if (isset($_POST['login'])) {
     $userArray[$arrayLength]['eyeColor'] = "";
     $userArray[$arrayLength]['hairColor'] = "";
     $userArray[$arrayLength]['loving'] = "";
+    $userArray[$arrayLength]['hating'] = "";
     $userArray[$arrayLength]['food'] = "";
     $userArray[$arrayLength]['description'] = "";    
 
