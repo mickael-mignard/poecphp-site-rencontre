@@ -87,7 +87,7 @@
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpg" class="card-img-top" alt="chat">
             </div>
-            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Chat</h3>
+            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Caramail</h3>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -116,7 +116,7 @@
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chien2.jpg" class="card-img-top" alt="Chien">
             </div>
-            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Chien</h3>
+            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Rexregis</h3>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -142,7 +142,7 @@
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpeg" height="50%" weight="50%" class="card-img-top" alt="Chat">
             </div>
-            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Chat</h3>
+            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Hortensia</h3>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
