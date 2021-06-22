@@ -44,7 +44,7 @@ if(isset($_POST['login'])){
                 <h1 class="card-title h2 mb-5 ">Connectez-vous au site 3C </h1>
                 <form action="#" method="POST">
                     <div class="mb-3">
-                        <label for="nickname" class="form-label">Pseudo : </label>
+                        <label for="nickname" class="form-label">Pseudo</label>
                         <input type="nickname" class="form-control" id="nickname" name="nickname" aria-describedby="nicknameHelp">
                         <p><?= (isset($formErrors['nickname'])) ? $formErrors['nickname'] : ''; ?></p>
                         <div class="mb-3">
@@ -54,8 +54,8 @@ if(isset($_POST['login'])){
                         </div>
                             <p><?= (isset($formErrors['connection'])) ? $formErrors['connection'] : ''; ?></p>
                         <div class="mb-3">
-                            <button class="btn btn-secondary" type="submit" name="login">Se connecter</button>
-                            <button class="btn btn-secondary" type="submit" name="subscribe">Créer son profil</button>
+                            <button class="btn btn-secondary" type="submit" name="subscribe">Inscription</button>
+                            <button class="btn btn-secondary" type="submit" name="login">Connexion</button>
                         </div>
                 </form>
             </div>

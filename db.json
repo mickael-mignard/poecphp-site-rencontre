@@ -20,5 +20,16 @@
         "picture": "",
         "species": "cat",
         "sex": "female"
-    }        
+    },
+    {
+        "id": "2",
+        "nickname": "aa",
+        "email": "aa@gmail.com",
+        "password": "aa",
+        "city": "rr",
+        "age": "35",
+        "picture": "",
+        "species": "canide",
+        "sex": "M\u00e2le"
+    }
 ]
