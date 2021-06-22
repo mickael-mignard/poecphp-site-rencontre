@@ -79,21 +79,13 @@ if (isset($_POST['login'])) {
         if ('image/jpeg' == $_FILES['myPictureFile']['type']) {
             $fileType = $_FILES['myPictureFile']['type'];
             $userArray[$arrayLength]['picture'] = $_FILES['myPictureFile']['name'];
-        } else {
-            $formErrors['myPictureFile'] = 'Veuillez charger un fichier jpeg';
-        }
+        } 
 
         $uploaddir = 'assets/img/';
         $uploadfile = $uploaddir . basename($_FILES['myPictureFile']['name']);
-        $fileMoved = move_uploaded_file($_FILES['myPictureFile']['tmp_name'], $uploadfile);
+        $fileMoved = move_uploaded_file($_FILES['myPictureFile']['tmp_name'], $uploadfile);            
 
-        if(!$fileMoved){
-            $formErrors['myPictureFile'] = 'Fichier non déplacé';
-        }        
-
-    } else {
-        $formErrors['myPictureFile'] = 'Veuillez charger un fichier';
-    }
+    } 
 
     // Species
     if (isset($_POST['species']) && in_array($_POST['species'], $species)) {
@@ -108,6 +100,12 @@ if (isset($_POST['login'])) {
     } else {
         $formErrors['sex'] = "Sélectionnez votre genre";
     }
+
+    $userArray[$arrayLength]['eyeColor'] = "";
+    $userArray[$arrayLength]['hairColor'] = "";
+    $userArray[$arrayLength]['loving'] = "";
+    $userArray[$arrayLength]['food'] = "";
+    $userArray[$arrayLength]['description'] = "";    
 
     if (empty($formErrors)) {
         $userJson = json_encode($userArray, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
@@ -161,7 +159,7 @@ if (isset($_POST['login'])) {
                     <div class="mb-3">
                         <label for="pictureFile">Photo de profil :</label>
                         <input type="file" name="myPictureFile" class="form-control-file" id="pictureFile">
-                        <p class="formErrors"><?= (isset($formErrors['pictureFile'])) ? $formErrors['pictureFile'] : ''; ?></p>
+                        <p class="formErrors"><?= (isset($formErrors['myPictureFile'])) ? $formErrors['myPictureFile'] : ''; ?></p>
                     </div>
                     <!--type -->
                     <div class="mb-3">
