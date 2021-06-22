@@ -67,17 +67,20 @@ function getUserById($id, $array) {
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title text-uppercase" id="exampleModalLabel">Pseudo : <?= $user['nickname']; ?></h5>
+                            <h5 class="modal-title text-uppercase " id="exampleModalLabel">Pseudo : <?= $user['nickname']; ?></h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body align-center">
+                        <div class="modal-body mx-auto">
+                        <ul>
                        <img src="assets/img/<?= $user['id'] ?>.jpg">
-                        <li class="mb-2">Id : <?= $user['id'] ?></li>
-                        <li class="mb-2">Ville : <?= $user['city'] ?></li>
-                        <li class="mb-2">Type : <?= $user['species'] ?></li>
-                        <li class="mb-2">Age : <?= $user['age'] ?></li>
-                        <li class="mb-2">Sexe : <?= $user['sex'] ?></li>
-                           
+                       </ul>
+                       <ul class="mx-auto">
+                        <li class="mb-2 text-center">Id : <?= $user['id'] ?></li>
+                        <li class="mb-2 text-center">Ville : <?= $user['city'] ?></li>
+                        <li class="mb-2 text-center">Type : <?= $user['species'] ?></li>
+                        <li class="mb-2 text-center" >Age : <?= $user['age'] ?></li>
+                        <li class="mb-2 text-center">Sexe : <?= $user['sex'] ?></li>
+                        </ul>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

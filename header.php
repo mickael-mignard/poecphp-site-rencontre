@@ -54,7 +54,7 @@
                         {
                         ?>
                             <a class="btn btn mx-3" href="myprofile.php">modifier mon profil</a>
-                          
+                            
                         <?php
                         }
                         ?>
