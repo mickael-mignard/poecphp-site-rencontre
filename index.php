@@ -100,8 +100,8 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Age : 1 ans </li>
                     <li class="list-group-item">Taille : 25 cm</li>
-                    <li class="list-group-item">Type : Abyssin</li>
-                    <li class="list-group-item">Sexe : Male</li>
+                    <li class="list-group-item">Type : félidé</li>
+                    <li class="list-group-item">Sexe : mâle</li>
                 </ul>
             </div>
             
@@ -128,8 +128,8 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Age : 1 ans </li>
                     <li class="list-group-item">Taille : 70 cm</li>
-                    <li class="list-group-item">Type : Border collie</li>
-                    <li class="list-group-item">Sexe : Male</li>
+                    <li class="list-group-item">Type : canidé</li>
+                    <li class="list-group-item">Sexe : mâle</li>
                 </ul>
             </div>
             <button class="get-btn" data-bs-toggle="modal" data-bs-target="#">Voir profil !</button>
@@ -153,9 +153,8 @@
             <div class="card">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Age : 5 mois </li>
-                    <li class="list-group-item">Taille : 20 cm</li>
-                    <li class="list-group-item">Type : LaPerm</li>
-                    <li class="list-group-item">Sexe : Female</li>
+                    <li class="list-group-item">Type : félidé</li>
+                    <li class="list-group-item">Sexe : female</li>
                 </ul>
             </div>
            
