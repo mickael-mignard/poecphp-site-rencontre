@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon1.png" />
     <title>Comme Chien et Chat</title>
 </head>
 
@@ -19,13 +20,14 @@
         <!-- Main title and slogan -->
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark shadow" id="navbar-custom">
+        <nav class="navbar navbar-expand-md shadow navbar-dark" id="navbar-custom">
             <!-- Container wrapper -->
             <div class="container-fluid d-flex flex-wrap justify-content-between">
                 <!-- Navbar brand -->
                 <div class="brand order-2 order-md-1">
                     <a class="navbar-brand mt-lg-0 text-dark" href="index.php"><img class="my-0" src="assets/img/logo.png" alt="logo" height="60px" weight="60px"></a>
                 </div>
+
                 <!-- Toggle button -->
                 <div class="menu-burger order-1">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,11 +37,12 @@
                 <!-- Collapsible wrapper -->
                 <div id="navbarNav" class="collapse navbar-collapse order-2 order-md-1">
                     <!-- Nav links -->
-                    <ul class="navbar-nav fs-4 me-auto mb-2 mb-lg-0 categories text-center">
+                    <ul class="navbar-nav fs-4 me-auto mb-2 mb-lg-0 categories justify-center">
 
                         <li class="nav-item my-1">
-                            <a class="btn btn mx-3" href="#listesDesProfils">Listes des profils</a>
+                            <a class="btn btn mx-3" href="#listesDesProfils">Liste des profils</a>
                         </li>
+                        
                         <li class="nav-item my-1">
                             <a class="btn btn mx-3" href="subscription.php">S'inscrire</a>
                         </li>
@@ -48,12 +51,13 @@
                 </div>
                 <!-- End of collapsible wrapper -->
 
-                <!-- Cart -->
+                <!-- Cart --> 
                 <div class="cart d-flex me-lg-3 order-1">
                     <!-- Cart icon and link to the modal window -->
-                    <a href="login.php"><i class="far fa-user-circle" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                   
+                    <a href="#"><img src="./assets/img/user.png" alt="login" height="50" width="50">
                     </a>
-                </div>
+                </div> 
                 <!-- End of cart -->
             </div>
             <!-- Container wrapper -->

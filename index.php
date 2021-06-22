@@ -48,7 +48,7 @@
 <!--section les objectifs du site-->
 <section>
     <div class="container text-center pt-5">
-        <h1>Comme Chien et Chat</h1>
+        <h1 style="color:#5FC3E4;">Comme Chien et Chat</h1>
            <h2>Le premier site de rencontre dédié aux relations inter-espèces</h2>
 
         <p class="pt-5">Nous avons créé Comme Chien et Chats en nous rendant compte que les sites de rencontres étaient systématiquement dédiés aux relations dites "classiques". <br>
@@ -68,7 +68,9 @@
 
 
 <!-- Derniers arrivés -->
-<section class="portfolio py-5" id="portfolio">
+
+
+<section class="port py-5" id="port">
     <div class="container-lg py-4">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -81,7 +83,7 @@
       <div class="row text-center">
        
         <div class="col-md-6 col-lg-4 mb-4">
-          <div class="services-item shadow-sm p-4 rounded bg-white">
+          <div class="services-item shadow p-4 rounded bg-white">
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpg" class="card-img-top" alt="chat">
             </div>
@@ -96,10 +98,10 @@
             </div>
             <div class="card">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Age : </li>
-                    <li class="list-group-item">Taille :</li>
-                    <li class="list-group-item">Type :</li>
-                    <li class="list-group-item">Sexe :</li>
+                    <li class="list-group-item">Age : 1 ans </li>
+                    <li class="list-group-item">Taille : 25 cm</li>
+                    <li class="list-group-item">Type : Abyssin</li>
+                    <li class="list-group-item">Sexe : Male</li>
                 </ul>
             </div>
             
@@ -110,7 +112,7 @@
 
 
         <div class="col-md-6 col-lg-4 mb-4">
-          <div class="services-item shadow-sm p-4 rounded bg-white">
+          <div class="services-item shadow p-4 rounded bg-white">
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chien2.jpg" class="card-img-top" alt="Chien">
             </div>
@@ -125,10 +127,10 @@
             <div class="card">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Age : 1 ans </li>
-                    <li class="list-group-item">Taille : </li>
-                    <li class="list-group-item">Type :</li>
+                    <li class="list-group-item">Taille : 70 cm</li>
+                    <li class="list-group-item">Type : Border collie</li>
                     <li class="list-group-item">Sexe : Male</li>
-                /ul>
+                </ul>
             </div>
             <button class="get-btn" data-bs-toggle="modal" data-bs-target="#">Voir profil !</button>
                    
@@ -136,7 +138,7 @@
         </div>
 
         <div class="col-md-6 col-lg-4 mb-4">
-          <div class="services-item shadow-sm p-4 rounded bg-white">
+          <div class="services-item shadow p-4 rounded bg-white">
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpeg" height="50%" weight="50%" class="card-img-top" alt="Chat">
             </div>
@@ -150,10 +152,10 @@
             </div>
             <div class="card">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Age : </li>
-                    <li class="list-group-item">Taille :</li>
-                    <li class="list-group-item">Type :</li>
-                    <li class="list-group-item">Sexe :</li>
+                    <li class="list-group-item">Age : 5 mois </li>
+                    <li class="list-group-item">Taille : 20 cm</li>
+                    <li class="list-group-item">Type : LaPerm</li>
+                    <li class="list-group-item">Sexe : Female</li>
                 </ul>
             </div>
            
