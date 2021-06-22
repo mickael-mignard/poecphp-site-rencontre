@@ -1,5 +1,6 @@
 <?php require 'header.php'; 
 
+//Tableaux pour les menus déroulants de la page myProfile
 
 $eyeColor = ['Bleu', 'Vert','Jaune','Marron' ,'Autre' ] ;
 
@@ -11,6 +12,7 @@ $hating =['Les laisses', 'Dormir par terre','Manger de la patée', 'La pluie','L
 
 $food = ['La tarte aux poireaux et jus de poubelle','Le RagouToutou... j\'en suis fou !','Les oiseaux, mulots et autres petits animaux', 'Le lait','Autre'];
 
+//Appel du Json pour récupérer et mettre à jour les valeurs 
 
 $editProfil = file_get_contents('db.json');
 $profilArray = json_decode($editProfil, true);
@@ -20,7 +22,7 @@ if(isset($_POST['editProfil'])){
             $loving = htmlspecialchars($_POST['loving']);
             $hating = htmlspecialchars($_POST['hating']);
             $food = htmlspecialchars($_POST['food']);
-            //$taille = int($_POST['food'])
+
             foreach($profilArray as $profile ){
             if($profile['eyeColor'] == $_POST['eyeColor'] && $profile['hairColor'] == $profile['hairColor'] && $profile['loving'] == $profile['loving'] && $profile['hating'] == $profile['hating'] && $profile['food'] == $profile['food']) {
                 $_SESSION['eyeColor'] = $_POST['eyeColor']; 
@@ -29,35 +31,44 @@ if(isset($_POST['editProfil'])){
                 $_SESSION['hating'] = $_POST['hating']; 
                 $_SESSION['food'] = $_POST['food']; 
 
-                header('location: index.php');      
+                header('Location: index.php');      
             }
         }
     }
+
+    //Afficher le profil 
+
+$formError = [];
+    if (!isset($_POST['editProfil'])){ ?>
+        <section>
+            <div class="container text-center">
+                <h2 class="fs-1">Rappel de mes informations :</h2>
+            <?php
+
+        for ($i = 0 ; $i < count($profilArray) ; $i++){
+            if($_SESSION['nickname'] == $profilArray[$i]['nickname'] ){
+                foreach ($profilArray as $key => $value) { ?>
+
+                <ul>    
+                        <li> Pseudo : <?=$profilArray[$i]['nickname'] ?> </li>
+                        <li>Couleur de mes yeux : <?=$profilArray[$i]['eyeColor'] ?></li>
+                        <li>Couleur de mon pelage : <?=$profilArray[$i]['hairColor'] ?></li>
+                        <li>J'adore : <?=$profilArray[$i]['loving'] ?></li>
+                        <li>Je déteste : <?=$profilArray[$i]['hating'] ?></li>
+                        <li>Ma nourriture préférée : <?=$profilArray[$i]['food'] ?></li>
+                </ul>
+            
+                </div>
+                    </section>    
+                    <?php
+                    break;
+                }
+             }
+        }
+    }
 ?>
-<!--Afficher le profil -->
-<p>Rappel de mon profil</p>
-<?php
 
-for ($i = 0 ; $i < count($profilArray) ; $i++){
-    if($_SESSION['nickname'] == $profilArray[$i]['nickname'] ){
-        foreach ($profilArray as $key => $value) { ?>
 
-        <ul>    
-                <li> Pseudo : <?=$profilArray[$i]['nickname'] ?> </li>
-                <li>Couleur de mes yeux : <?=$profilArray[$i]['eyeColor'] ?></li>
-                <li>Couleur de mon pelage : <?=$profilArray[$i]['hairColor'] ?></li>
-                <li>J'adore : <?=$profilArray[$i]['loving'] ?></li>
-                <li>Je déteste : <?=$profilArray[$i]['hating'] ?></li>
-                <li>Ma nourriture préférée : <?=$profilArray[$i]['food'] ?></li>
-        </ul>
-        
-<?php
-             break;
-  }
- }
-}
-
-?>
 
 <!--Editer le profil-->
 <div class="container pt-5">
@@ -68,15 +79,10 @@ for ($i = 0 ; $i < count($profilArray) ; $i++){
             <div class="col-6 card">
                 <div class="card-body">
                     <h1 class="card-title h2 mb-5 ">😺 Mise à jour de mon profil 🐶</h1>
-                    <form action="index.php" method="POST">
+                    <form action="#" method="POST">
 
                         </select>
-                        <!--Taille-->
-             
-                        <div class="mb-3">
-                            <label for="height" class="form-label">Ma taille (au garot et en CM) : </label>
-                            <input type="number" class="form-control" id="height" name="height"  aria-describedby="numberHelp" >
-                        </div>  
+
                         <!--yeux -->
                         <div class="input-group mb-3">
                         <label for="eyeColor">Mes yeux sont : </label>
