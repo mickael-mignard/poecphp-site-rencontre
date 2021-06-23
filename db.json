@@ -7,14 +7,14 @@
         "city": "Paris",
         "age": "50",
         "picture": "img/O.jpg",
-        "species": "dog",
+        "species": "canidé",
         "sex": "mâle",
         "eyeColor": "Jaune",
         "hairColor": "Blanc",
-        "loving": "Faire mes griffes/ grignoter les chaussures",
-        "hating": "Dormir par terre",
-        "food": "Les oiseaux, mulots et autres petits animaux",
-        "description": "Le Chien à pieds (Felis nigripes), parfois Chien aux pattes blondes, est une espèce de félins sauvages, d'allure trapue au pelage tacheté"
+        "loving" : "Faire mes griffes/ grignoter les chaussures",
+        "hating" :"Dormir par terre",
+        "food" : "Les oiseaux, mulots et autres petits animaux",
+        "description" : "Très joueur et très casanier, je recherche le chat de mes rêves pour des parties de chasse endiablées"
     },
     {
         "id": "1",
@@ -24,14 +24,14 @@
         "city": "Paris",
         "age": "40",
         "picture": "img/1.jpg",
-        "species": "cat",
+        "species": "félidé",
         "sex": "femelle",
         "eyeColor": "Marron",
         "hairColor": "Noir",
-        "loving": "Jouer à la balle",
-        "hating": "Les laisses",
-        "food": "La tarte aux poireaux et jus de poubelle",
-        "description": "Très câlineuse, protectrice joueuse je ne me sépare jamais de mon jouet fétiche, je suis a la recherche d'une Barbelette pour combler mes envi"
+        "loving" : "Jouer à la balle",
+        "hating" :"Les laisses",
+        "food" : "La tarte aux poireaux et jus de poubelle",
+        "description" : "Très câline, protectrice et joueuse je ne me sépare jamais de mon jouet fétiche, je suis a la recherche d'une Barbelette pour combler mes envies"
     },
     {
         "id": "2",
@@ -41,14 +41,14 @@
         "city": "Bordeaux",
         "age": "35",
         "picture": "img/2.jpg",
-        "species": "dog",
+        "species": "canidé",
         "sex": "mâle",
         "eyeColor": "Marron",
         "hairColor": "Noir",
-        "loving": "Jouer à la balle",
-        "hating": "Les laisses",
-        "food": "La tarte aux poireaux et jus de poubelle",
-        "description": "Bonjour, Je suis un chihuahua malheureusement trop grand pour ma race je suis inscrit au c3c mais pas confirmé mes parents sont tous les deux c .."
+        "loving" : "Jouer à la balle",
+        "hating" :"Les laisses",
+        "food" : "La tarte aux poireaux et jus de poubelle",
+        "description" : "Bonjour, malgré un leger handicap physique je suis toujours partant pour jouer à la balle et partager une bonne tarte aux poireaux jus de poubelle"
     },
     {
         "id": "3",
@@ -58,13 +58,13 @@
         "city": "Lille",
         "age": "13",
         "picture": "img/3.jpg",
-        "species": "cat",
+        "species": "félidé",
         "sex": "mâle",
         "eyeColor": "blue",
         "hairColor": "Noir",
-        "loving": "Jouer à la balle",
-        "hating": "Les laisses",
-        "food": "La tarte aux poireaux et jus de poubelle",
-        "description": "Je suis un yorkshire LOF mâle de 13 mois couleur noir et feu je suis a la recherche d'une yorkshirette pour combler mes envi ..."
-    }    
+        "loving" : "Jouer à la balle",
+        "hating" :"Les laisses",
+        "food" : "La tarte aux poireaux et jus de poubelle",
+        "description" : "Malgré mon nom je suis bel et bien un chat qui ronronnera de plaisir à la rencontre du chien de ses rêves"
+    }
 ]

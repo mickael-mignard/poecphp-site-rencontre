@@ -111,9 +111,7 @@ if (isset($_POST['login'])) {
         $userJson = json_encode($userArray, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
         file_put_contents('db.json', $userJson);
     }
-
-    if (isset($_POST['login']) && empty($formErrors)) {
-    }
+    
 }
 ?>
 

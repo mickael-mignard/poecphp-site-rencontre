@@ -217,7 +217,12 @@
                                         </h4>
                                         <div class="card-body">
                                             <h5 class="card-title">
+<<<<<<< HEAD
                                                 Nous ne savons pas quoi dire... Nous sommes FELIN pour l'autre ! </h5>
+=======
+                                                Nous ne savons pas quoi dire... Hormis que le bonheur est à porté de pattes!
+                                                !</h5>
+>>>>>>> 2b223c9f152df9355342fc410d52da295b79c48a
                                             <p class="card-text">
                                                 Fluffy et Bunny</p>
                                         </div>

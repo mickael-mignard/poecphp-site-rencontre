@@ -11,7 +11,7 @@ $food = ['La tarte aux poireaux et jus de poubelle', 'Le RagouToutou... j\'en su
 $editProfil = file_get_contents('db.json');
 $profilArray = json_decode($editProfil, true);
 
-if(isset($_SESSION['id'])){
+if (isset($_SESSION['id'])) {
     $id = $_SESSION['id'];
 }
 
@@ -81,7 +81,6 @@ if (!isset($_POST['editProfil']) && isset($_SESSION['nickname'])) { ?>
             <div class="card-body">
                 <h1 class="card-title h2 mb-5 ">😺 Mise à jour de mon profil 🐶</h1>
                 <form action="#" method="POST">
-
                     </select>
 
                     <!--yeux -->
@@ -98,14 +97,14 @@ if (!isset($_POST['editProfil']) && isset($_SESSION['nickname'])) { ?>
 
                     <!--Pelage-->
                     <div class="input-group mb-3">
-                    <label for="hairColor">Mon pelage est : </label>
-                    <select name="hairColor" id="hairColor">
-                        <option value="" <?= !isset($hairColor) ? 'selected' : ''; ?> disabled selected>Sélectionnez votre pelage</option>
-                        <?php
-                        foreach ($hairColor as $value) { ?>
-                            <option <?= (isset($hairColor) && $hairColor == $value) ? 'selected' : ''; ?> value="<?= $value ?>"><?= $value ?></option>
-                        <?php } ?>
-                    </select>
+                        <label for="hairColor">Mon pelage est : </label>
+                        <select name="hairColor" id="hairColor">
+                            <option value="" <?= !isset($hairColor) ? 'selected' : ''; ?> disabled selected>Sélectionnez votre pelage</option>
+                            <?php
+                            foreach ($hairColor as $value) { ?>
+                                <option <?= (isset($hairColor) && $hairColor == $value) ? 'selected' : ''; ?> value="<?= $value ?>"><?= $value ?></option>
+                            <?php } ?>
+                        </select>
                     </div>
 
                     <!--j'adore-->
@@ -146,7 +145,7 @@ if (!isset($_POST['editProfil']) && isset($_SESSION['nickname'])) { ?>
 
                     <!--Plat préféré -->
                     <div class="input-group mb-3">
-                        <label for="description">Courte présentation : </label>                       
+                        <label for="description">Courte présentation : </label>
                         <textarea name="description" id="description" cols="25" rows="2"></textarea>
                     </div>
 
@@ -159,10 +158,4 @@ if (!isset($_POST['editProfil']) && isset($_SESSION['nickname'])) { ?>
     </div>
 </div>
 
-<!--
-Une fois loggué, on veut récupérer les informations du json correspondant à la persoqnne connectée.
-
- - 1 / il faut afficher le pseudo du loggué
- - si on affiche le pseudo, on peut afficher le reste....
--->
 <?php require 'footer.php'; ?>
