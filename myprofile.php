@@ -44,7 +44,7 @@ $formError = [];
 if (!isset($_POST['editProfil']) && isset($_SESSION['nickname'])) { ?>
     <section>
         <div class="container text-center">
-            <h2 class="fs-1 mt-3">Rappel de mes informations :</h2>
+            <h1 class="fs-1 mt-3 titleProfil">Rappel de mes informations :</h1>
             <?php
 
             for ($i = 0; $i < count($profilArray); $i++) {
@@ -79,7 +79,7 @@ if (!isset($_POST['editProfil']) && isset($_SESSION['nickname'])) { ?>
         </div>
         <div class="col-6 card">
             <div class="card-body">
-                <h1 class="card-title h2 mb-5 ">😺 Mise à jour de mon profil 🐶</h1>
+                <h2 class="card-title h2 mb-5 titleProfil ">😺 Mise à jour de mon profil 🐶</h2>
                 <form action="#" method="POST">
                     </select>
 

@@ -20,7 +20,7 @@ function getUserById($id, $array) {
 }
 ?>
 <div class="container-fluid ms-2 mt-3">
-<h1 class="text-center m-5" id="listeProfils" style="color:navy">Liste des profils</h1>
+<h1 class="text-center m-5" id="listeProfils" >Liste des profils</h1>
 <?php
     for($i = 0; $i< count($userArray); $i++){
         $user = getUserById($i, $userArray);
@@ -31,7 +31,7 @@ function getUserById($id, $array) {
             <div class="col-md-4">
                 <figure class="figure">
                     <img src="assets/img/<?= $user['id'] ?>.jpg" class="figure-img img-thumbnail rounded" alt="logo" height="194px" width="259px">
-                    <figcaption class="figure-caption text-center fw-bold"><span class="text-uppercase"><?= $user['nickname']; ?></span></figcaption>
+                    <figcaption class="figure-caption text-center fw-bold pseudo"><span class="text-uppercase"><?= $user['nickname']; ?></span></figcaption>
                 </figure>
             </div>
             <div class="col-md-2 mt-5">
@@ -50,7 +50,7 @@ function getUserById($id, $array) {
                 </div>
 
                 <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-4">
-                    <button type="button" class="btn btn-info" style="color:white;" data-bs-toggle="modal" data-bs-target="#exampleModal<?= $user['id'] ?>">Voir profil !</button>
+                    <button type="button" class="btn btn-info text-white" data-bs-toggle="modal" data-bs-target="#exampleModal<?= $user['id'] ?>">Voir profil !</button>
                     <button type="button" class="btn btn-secondary">Envoyer message</button>
                     <button type="button" class="btn btn-danger">Liker</button>
                 </div>

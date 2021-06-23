@@ -62,7 +62,7 @@ function getUserById($id, $array) {
             <div class="col-md-4">
                 <figure class="figure">
                     <img src="assets/img/<?= $user['id'] ?>.jpg" class="figure-img img-thumbnail rounded" alt="logo" height="194px" width="259px">
-                    <figcaption class="figure-caption text-center"><b>Pseudo : <?= $user['nickname']; ?></b></figcaption>
+                    <figcaption class="figure-caption text-center pseudo"><b>Pseudo : <?= $user['nickname']; ?></b></figcaption>
                 </figure>
             </div>
             <div class="col-md-2 mt-5">

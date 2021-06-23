@@ -75,7 +75,7 @@ function getUserById($id, $array) {
 <!--section les objectifs du site-->
 <section>
     <div class="container text-center pt-5">
-        <h1 style="color:#5FC3E4;">Comme Chien et Chat</h1>
+        <h1 class="titleProfil">Comme Chien et Chat</h1>
            <h2>Le premier site de rencontre dédié aux relations interespèces</h2>
 
         <p class="pt-5">Nous avons créé Comme Chien et Chats en nous rendant compte que les sites de rencontre étaient systématiquement dédiés aux relations dites "classiques". <br>
