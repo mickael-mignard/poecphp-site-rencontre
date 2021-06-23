@@ -1,5 +1,32 @@
 <?php require 'header.php' ?>
 
+<?php
+
+
+$json = file_get_contents('db.json');
+$userArray = json_decode($json, true);
+
+
+
+$user = getUserById(0, $userArray);
+
+/**
+ * Get a user in JSON file by ID.
+ * @param $id user's id
+ * @param $array JSON file converted in an array
+ * @return $user user in the JSON file
+ */
+function getUserById($id, $array) {
+    foreach($array as $index => $user) {
+        if($user['id'] == $id) {
+            return $user;
+        }
+    }
+}
+
+?>
+
+
 <section>
     <div class="container-fluid">
 
@@ -104,8 +131,41 @@
                 </ul>
             </div>
             
-            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#exampleModalSiteAgence">Voir profil !</button>
+            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">Voir profil !</button>
             
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fw-bold" id="exampleModalLabel">Pseudo : <span class="text-uppercase">CARAMAIL</span></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body mx-auto">
+                        <div class="icon my-3 text-info fs-2">
+                            <img src="./assets/img/chat1.jpg" class="card-img-top" alt="chat">
+                        </div>
+                       <ul class="mx-auto">
+                        <li class="mb-2 text-center"><span class="text-decoration-underline">CHAT</span></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Ville :</span> Lyon</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Type :</span> Abyssin</li>
+                        <li class="mb-2 text-center" ><span class="fw-bold">Age :</span> 1 ans</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Sexe :</span> <?= $user['sex'] ?></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">yeux :</span> <?= $user['eyeColor'] ?></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">chevaux :</span> marron</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Aime :</span> <?= $user['loving'] ?></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Déteste :</span> <?= $user['hating'] ?></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Food :</span> <?= $user['food'] ?></li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
           </div>
         </div>
 
@@ -130,7 +190,42 @@
                     <li class="list-group-item">Sexe : mâle</li>
                 </ul>
             </div>
-            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#">Voir profil !</button>
+            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">Voir profil !</button>
+
+
+            
+            
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fw-bold" id="exampleModalLabel">Pseudo : <span class="text-uppercase">REXREGIS</span></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body mx-auto">
+                        <div class="icon my-3 text-info fs-2">
+                            <img src="./assets/img/chien2.jpg" class="card-img-top" alt="chat">
+                        </div>
+                       <ul class="mx-auto">
+                        <li class="mb-2 text-center"><span class="text-decoration-underline">CHIEN</span></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Ville :</span> Toulouse</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Type :</span> Border collie</li>
+                        <li class="mb-2 text-center" ><span class="fw-bold">Age :</span> 1 ans</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Sexe :</span> Male</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">yeux :</span> Noir</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">chevaux :</span> Blanc</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Aime :</span> <?= $user['loving'] ?></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Déteste :</span> <?= $user['hating'] ?></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Food :</span> <?= $user['food'] ?></li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
                    
           </div>
         </div>
@@ -156,7 +251,40 @@
                 </ul>
             </div>
            
-            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#">Voir profil !</button>          
+            <button class="get-btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">Voir profil !</button>  
+            
+            
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fw-bold" id="exampleModalLabel">Pseudo : <span class="text-uppercase">HORTENSIA</span></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body mx-auto">
+                        <div class="icon my-3 text-info fs-2">
+                            <img src="./assets/img/chat1.jpeg" class="card-img-top" alt="chat">
+                        </div>
+                       <ul class="mx-auto">
+                        <li class="mb-2 text-center"><span class="text-decoration-underline">CHAT</span></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Ville :</span> Lyon</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Type :</span> LaPerm</li>
+                        <li class="mb-2 text-center" ><span class="fw-bold">Age :</span> 5 mois</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Sexe :</span> Female</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">yeux :</span> Bleu</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">chevaux :</span> Blond</li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Aime :</span> <?= $user['loving'] ?></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Déteste :</span> <?= $user['hating'] ?></li>
+                        <li class="mb-2 text-center"><span class="fw-bold">Food :</span> <?= $user['food'] ?></li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
         </div>
       </div>
       </div>
