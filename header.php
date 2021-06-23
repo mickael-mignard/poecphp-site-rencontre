@@ -43,42 +43,38 @@ session_start();
                 <!-- Collapsible wrapper -->
                 <div id="navbarNav" class="collapse navbar-collapse order-2 order-md-1">
                     <!-- Nav links -->
-                    <ul class="navbar-nav fs-4 me-auto mb-2 mb-lg-0 categories justify-center">
+                    <ul class="navbar-nav fs-4">
 
+                        <?php if (!empty($_SESSION['nickname'])) : ?>
+                            <li class="nav-item my-1">
+                                <a class="btn btn mx-3" href="profilList.php">Liste des profils</a>
+                            </li>
+                            <li class="nav-item my-1">
+                                <a class="btn btn mx-3" href="match.php">Vos matchs</a>
+                            </li>
+                        <?php endif ?>
                         <li class="nav-item my-1">
-                            <a class="btn btn mx-3" href="profilList.php">Liste des profils</a>
-                        </li>
-                        
-                        <li class="nav-item my-1">
-                        <?php
-                        if((!isset($_REQUEST['login']) || empty($_POST['nickname']) || empty($_POST['email']) || empty($_POST['password']))){
-                        ?>
-                            <a class="btn btn mx-3" href="subscription.php">S'inscrire</a>
-                        <?php
-                        }
-                        else
-                        {
-                        ?>
-                            <a class="btn btn mx-3" href="myprofile.php">modifier mon profil</a>
-                            
-                        <?php
-                        }
-                        
-                        ?>
+                            <?php if (empty($_SESSION['nickname'])) : ?>
+                                <a class="btn btn mx-3" href="subscription.php">S'inscrire</a>
+                            <?php else : ?>
+                                <a class="btn btn mx-3" href="myprofile.php">modifier mon profil</a>
+                            <?php endif ?>
                         </li>
                     </ul>
                     <!-- End of nav links -->
                 </div>
                 <!-- End of collapsible wrapper -->
 
-                <!-- Cart --> 
+                <!-- Login -->
                 <div class="cart d-flex me-lg-3 order-1">
-                    <!-- Cart icon and link to the modal window -->
-                   
-                    <a href="login.php"><img src="./assets/img/user.png" alt="login" height="50" width="50">
-                    </a>
-                </div> 
-                <!-- End of cart -->
+                    <!-- Login and Logout icons -->
+                    <?php if (isset($_SESSION['nickname'])) : ?>
+                        <a href="logout.php"><i class="fas fa-sign-out-alt"></i></a>
+                    <?php else : ?>
+                        <a href="login.php"><img src="./assets/img/user.png" alt="login" height="50" width="50"></a>
+                    <?php endif ?>
+                </div>
+                <!-- End of Login -->
             </div>
             <!-- Container wrapper -->
         </nav>

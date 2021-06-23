@@ -1,14 +1,9 @@
 <?php require 'header.php' ?>
 
 <?php
-
-
 $json = file_get_contents('db.json');
 $userArray = json_decode($json, true);
 
-
-
-$user = getUserById(0, $userArray);
 
 /**
  * Get a user in JSON file by ID.
@@ -23,10 +18,7 @@ function getUserById($id, $array) {
         }
     }
 }
-
 ?>
-
-
 <div class="container-fluid ms-2 mt-3">
 <h1 class="text-center m-5" id="listeProfils" style="color:navy">Liste des profils</h1>
 <?php

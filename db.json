@@ -1,7 +1,7 @@
 [
     {
         "id": "0",
-        "nickname": "admin",
+        "nickname": "Admin",
         "email": "admin@gmail.com",
         "password": "admin",
         "city": "Paris",
@@ -18,7 +18,7 @@
     },
     {
         "id": "1",
-        "nickname": "untel",
+        "nickname": "Tigrou",
         "email": "untel@gmail.com",
         "password": "mdp",
         "city": "Paris",
@@ -35,7 +35,7 @@
     },
     {
         "id": "2",
-        "nickname": "aa",
+        "nickname": "Caramel",
         "email": "aa@gmail.com",
         "password": "aa",
         "city": "Bordeaux",
