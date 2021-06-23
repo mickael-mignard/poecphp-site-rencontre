@@ -13,22 +13,22 @@
                 <div class="carousel-item active">
                     <img src="assets/img/chat.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block carrouselStyle">
-                        <h5 class="textCarousel">Félin, vous avez besoin d'un amour canidé pour vous sentir bien</h5>
+                        <h5 class="textCarousel">Félin, vous avez besoin d'un amour canidé pour vous sentir bien ?</h5>
                         <p class="textCarousel">Venez trouver le chien de vos rêves qui a du chien !</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/chien.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block carrouselStyle">
-                        <h5 class="textCarousel">Vous recherchez un amour félin de qualité</h5>
+                        <h5 class="textCarousel">Vous recherchez un amour félin de qualité ?</h5>
                         <p class="textCarousel">Venez découvrir nos fabriques à ronron tous plus mignons les uns que les autres, mais avec du caractère !</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/catDog.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block carrouselStyle">
-                        <h5 class="textCarousel">L'amour n'est pas qu'une question d'espèce</h5>
-                        <p class="textCarousel">Chez 3C nous mettons en relations des chiens et des chats qui se ressemblent pour un amour durable</p>
+                        <h5 class="textCarousel">L'amour n'est pas qu'une question d'espèce !</h5>
+                        <p class="textCarousel">Chez 3C nous mettons en relation des chiens et des chats qui se ressemblent pour un amour durable</p>
                     </div>
                 </div>
             </div>
@@ -49,12 +49,12 @@
 <section>
     <div class="container text-center pt-5">
         <h1 style="color:#5FC3E4;">Comme Chien et Chat</h1>
-           <h2>Le premier site de rencontre dédié aux relations inter-espèces</h2>
+           <h2>Le premier site de rencontre dédié aux relations interespèces</h2>
 
-        <p class="pt-5">Nous avons créé Comme Chien et Chats en nous rendant compte que les sites de rencontres étaient systématiquement dédiés aux relations dites "classiques". <br>
-            Entre chiens males et femelles, entre chats males ou entre chats femelles uniquement. Mais quant était-il pour les amours interespèces ? Ces dernières étaient les grandes oubliées. C'est de là que nous avons décidés de créer ce site.</p>
+        <p class="pt-5">Nous avons créé Comme Chien et Chats en nous rendant compte que les sites de rencontre étaient systématiquement dédiés aux relations dites "classiques". <br>
+            Entre chiens mâles et femelles, entre chats mâles ou entre chats femelles uniquement. Mais qu'en était-il pour les amours interespèces ? Ces dernières étaient les grandes oubliées. C'est de là que nous avons décidés de créer ce site.</p>
         <p> Au départ, personne ne voulait croire en notre projet. Et 5 ans après son lancement, le site est toujours présent ! <br>
-            Comme des chiffres parlent mieux, que de longs discours en voici quelques uns.
+            Comme des chiffres parlent mieux que de longs discours en voici quelques uns :
         <ul>
             <li>2 524 couples</li>
             <li>478 bébés adoptés par ces couples</li>
@@ -75,7 +75,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">Les derniers arrivées</span></h2>
+            <h2 class="fw-bold mb-5">Les derniers arrivés</span></h2>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpg" class="card-img-top" alt="chat">
             </div>
-            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Chat</h3>
+            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Caramail</h3>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -99,9 +99,8 @@
             <div class="card">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Age : 1 ans </li>
-                    <li class="list-group-item">Taille : 25 cm</li>
-                    <li class="list-group-item">Type : Abyssin</li>
-                    <li class="list-group-item">Sexe : Male</li>
+                    <li class="list-group-item">Type : félidé</li>
+                    <li class="list-group-item">Sexe : mâle</li>
                 </ul>
             </div>
             
@@ -116,7 +115,7 @@
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chien2.jpg" class="card-img-top" alt="Chien">
             </div>
-            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Chien</h3>
+            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Rexregis</h3>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -127,9 +126,8 @@
             <div class="card">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Age : 1 ans </li>
-                    <li class="list-group-item">Taille : 70 cm</li>
-                    <li class="list-group-item">Type : Border collie</li>
-                    <li class="list-group-item">Sexe : Male</li>
+                    <li class="list-group-item">Type : canidé</li>
+                    <li class="list-group-item">Sexe : mâle</li>
                 </ul>
             </div>
             <button class="get-btn" data-bs-toggle="modal" data-bs-target="#">Voir profil !</button>
@@ -142,7 +140,7 @@
             <div class="icon my-3 text-info fs-2">
               <img src="./assets/img/chat1.jpeg" height="50%" weight="50%" class="card-img-top" alt="Chat">
             </div>
-            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Chat</h3>
+            <h3 class="fs-5 py-2 text-uppercase text-info text-muted">Hortensia</h3>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -153,9 +151,8 @@
             <div class="card">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Age : 5 mois </li>
-                    <li class="list-group-item">Taille : 20 cm</li>
-                    <li class="list-group-item">Type : LaPerm</li>
-                    <li class="list-group-item">Sexe : Female</li>
+                    <li class="list-group-item">Type : félidé</li>
+                    <li class="list-group-item">Sexe : female</li>
                 </ul>
             </div>
            
@@ -219,9 +216,8 @@
                                         <h4 class="text-center pt-2"> <img class="img imgTestimonial img-thumbnail shadow p-3 mb-5 bg-black rounded" alt="100%x280" src="assets/img/FluffyBunny.jpg">
                                         </h4>
                                         <div class="card-body">
-                                            <h5 class="card-title">Trop
-                                                Nous ne savons pas quoi dire... Hormis que le bonheur est à porté de pattes!
-                                                !</h5>
+                                            <h5 class="card-title">
+                                                Nous ne savons pas quoi dire... Nous sommes FELIN pour l'autre ! </h5>
                                             <p class="card-text">
                                                 Fluffy et Bunny</p>
                                         </div>
@@ -252,7 +248,7 @@
                                         </h4>
                                         <div class="card-body">
                                             <h5 class="card-title">
-                                                Quand on pense qu'on se pensaient isolés et seuls. Ici nous avons trouvé des animaux partageant les mêmes goût. Une révélation et un bel amour !</h5>
+                                                Et dire qu'on se pensait isolés et seuls. Ici nous avons trouvé des animaux partageant les mêmes goûts. Une révélation et un bel amour !</h5>
                                             <p class="card-text">Pupuce et Random</p>
 
 
