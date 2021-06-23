@@ -19,8 +19,8 @@ if (isset($_POST['login'])) {
     $userArray[$arrayLength]['id'] = $arrayLength;
 
     $formErrors = [];
-    $regexNickname = '/^[a-zA-Z0-9 \-]+$/';
-    $regexCity = '/^[a-zA-Z \-]+$/';
+    $regexNickname = '/^[a-zA-Z0-9àâáçéèèêëìîíïôòóùûüÂÊÎÔúÛÄËÏÖÜÀÆæÇÉÈŒœÙñý \-]+$/';
+    $regexCity = '/^[a-zA-ZàâáçéèèêëìîíïôòóùûüÂÊÎÔúÛÄËÏÖÜÀÆæÇÉÈŒœÙñý \-]+$/';
 
     // Nickname
     if (!empty($_POST['nickname'])) {

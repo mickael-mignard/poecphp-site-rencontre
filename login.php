@@ -6,7 +6,7 @@ $userArray = json_decode($userList, true);
 
 if(isset($_POST['connexion'])){
     $formErrors = [];
-    $regexNickname = '/^[a-zA-Z0-9 \-]+$/';
+    $regexNickname = '/^[a-zA-Z0-9àâáçéèèêëìîíïôòóùûüÂÊÎÔúÛÄËÏÖÜÀÆæÇÉÈŒœÙñý \-]+$/';
     // nickname
     if (!empty($_POST['nickname'])) {
         if (preg_match($regexNickname, $_POST['nickname'])) {
