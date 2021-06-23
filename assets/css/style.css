@@ -73,6 +73,16 @@ nav li a:hover:after {
 ul li {
   list-style: none;
 }
+ 
+/* bouton Voir profil */
+.btnProfil {
+  background-color: #5FC3E4;
+}
+/* bouton liker */
+
+#btnLiker {
+  background-color:#E55D87;
+}
 
 /*   Les Cards  */
 
@@ -161,6 +171,7 @@ border: 1px solid violet;
 font-size: 0.9rem;
 color: goldenrod;
 }
+
 
 /* FOOTER */
 footer {

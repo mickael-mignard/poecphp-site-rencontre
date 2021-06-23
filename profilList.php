@@ -50,9 +50,9 @@ function getUserById($id, $array) {
                 </div>
 
                 <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-4">
-                    <button type="button" class="btn btn-info text-white" data-bs-toggle="modal" data-bs-target="#exampleModal<?= $user['id'] ?>">Voir profil !</button>
+                    <button type="button" class="btn btnProfil text-white" data-bs-toggle="modal" data-bs-target="#exampleModal<?= $user['id'] ?>">Voir profil !</button>
                     <button type="button" class="btn btn-secondary">Envoyer message</button>
-                    <button type="button" class="btn btn-danger">Liker</button>
+                    <button type="button" class="btn text-white" id="btnLiker">Liker</button>
                 </div>
 
                 <div class="modal fade" id="exampleModal<?= $user['id'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

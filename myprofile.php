@@ -150,7 +150,7 @@ if (!isset($_POST['editProfil']) && isset($_SESSION['nickname'])) { ?>
                     </div>
 
                     <div class="mb-3">
-                        <button class="btn btn-secondary" type="submit" name="editProfil">Valider</button>
+                        <button class="btn btn-success" type="submit" name="editProfil">Valider</button>
                     </div>
                 </form>
             </div>

@@ -78,10 +78,10 @@ function getUserById($id, $array) {
         <h1 class="titleProfil">Comme Chien et Chat</h1>
            <h2>Le premier site de rencontre dédié aux relations interespèces</h2>
 
-        <p class="pt-5">Nous avons créé Comme Chien et Chats en nous rendant compte que les sites de rencontre étaient systématiquement dédiés aux relations dites "classiques". <br>
+        <p class="pt-5">Nous avons créé Comme Chien et Chat en nous rendant compte que les sites de rencontre étaient systématiquement dédiés aux relations dites "classiques". <br>
             Entre chiens mâles et femelles, entre chats mâles ou entre chats femelles uniquement. Mais qu'en était-il pour les amours interespèces ? Ces dernières étaient les grandes oubliées. C'est de là que nous avons décidés de créer ce site.</p>
         <p> Au départ, personne ne voulait croire en notre projet. Et 5 ans après son lancement, le site est toujours présent ! <br>
-            Comme des chiffres parlent mieux que de longs discours en voici quelques uns :
+            Comme les chiffres parlent mieux que de longs discours en voici quelques uns :
         <ul>
             <li>2 524 couples</li>
             <li>478 bébés adoptés par ces couples</li>
