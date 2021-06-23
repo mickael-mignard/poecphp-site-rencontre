@@ -4,6 +4,37 @@
 $json = file_get_contents('db.json');
 $userArray = json_decode($json, true);
 
+if(isset($_SESSION['id'])){
+    $id = $_SESSION['id'];
+}
+
+// Love, hate and food preferences of the logged user are compared with all the others users.
+// The position in the array is equal to the id of the users. If there is a match, the value associated is incremented.
+$matchs = [];
+for($i = 0; $i < count($userArray); $i++){
+
+    $compteur = 0;
+
+    if($userArray[$id]['loving'] == $userArray[$i]['loving'] && $id != $i){
+        $compteur++;
+    }
+    if($userArray[$id]['hating'] == $userArray[$i]['hating'] && $id != $i){
+        $compteur++;
+    }
+    if($userArray[$id]['food'] == $userArray[$i]['food'] && $id != $i){
+        $compteur++;        
+    }
+    $matchs[$i] = $compteur;
+
+}
+
+// If some users have at least one thing in common, they are added in the array $matchingUsers
+$matchingUsers = [];
+foreach($matchs as $key => $match){
+    if($match > 0){
+        $matchingUsers[] = $key;
+    }
+}
 
 /**
  * Get a user in JSON file by ID.
@@ -19,12 +50,12 @@ function getUserById($id, $array) {
     }
 }
 ?>
+
 <div class="container-fluid ms-2 mt-3">
-<h1 class="text-center m-5" id="listeProfils">Liste des profils</h1>
+<h1 class="text-center m-5" id="listeProfils">Vos matchs !</h1>
 <?php
-    for($i = 0; $i< count($userArray); $i++){
-        $user = getUserById($i, $userArray);
-   
+    foreach($matchingUsers as $key => $matchingUser){
+        $user = getUserById($matchingUser, $userArray);   
 ?>
     <div class="card mb-3 " id="<?= $user['id'] ?>">
         <div class="row ">
@@ -84,21 +115,17 @@ function getUserById($id, $array) {
                         </div>
                         </div>
                     </div>
-                </div>
-                
-            </div>
-       
-        </div>
-
-        
+                </div>                
+            </div>       
+        </div>        
     </div>
 <?php
-
 }
 ?>
 
-
 </div>
 
-
 <?php require 'footer.php' ?>
+
+
+

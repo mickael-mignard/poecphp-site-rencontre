@@ -2,58 +2,62 @@
 
 
 nav .li {
-    display:inline-block;min-width:50px;
+  display:inline-block;min-width:50px;
 }
 nav li a {
-    text-decoration:none;
-    line-height: 70px;
-    padding: 0 10px;
-    text-align: center;
-    font-size: 1.3em;
-    color: #444444;
-    text-transform: uppercase;
+  text-decoration:none;
+  line-height: 70px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 1.3em;
+  color: #444444;
+  text-transform: uppercase;
 }
 nav li a:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 4px;
-    width: 0;
-    transition: width .5s ease, background-color .5s ease;
-  }
-  nav li a:hover:after {
-    width: 90%;
-    background: #444;
-  }
+  content: '';
+  display: block;
+  margin: auto;
+  height: 4px;
+  width: 0;
+  transition: width .5s ease, background-color .5s ease;
+}
+nav li a:hover:after {
+  width: 90%;
+  background: #444;
+}
+
+.fa-sign-out-alt{
+  transform: scale(2);    
+}
 
 /*Ajustement des images pour le carrousel d'intro */
 * {
-    font-family: 'Quando', serif;;
+  font-family: 'Quando', serif;;
 }
 
 .carrouselIntro img {
-    height: 80vh;
-    object-fit: cover; 
-    }
+  height: 80vh;
+  object-fit: cover; 
+  }
 
 .imgTestimonial{
-    height:250px;
-    object-fit: cover; 
+  height:250px;
+  object-fit: cover; 
 }
 
 .textCarousel{
-    color:black;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(173,173,182,1) 26%, rgba(13,85,99,1) 100%);
-    font-weight: bolder;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-shadow: 1px 1px #bbb;
+  color:black;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(173,173,182,1) 26%, rgba(13,85,99,1) 100%);
+  font-weight: bolder;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-shadow: 1px 1px #bbb;
 }
 
 
 ul li {
-    list-style: none;
+  list-style: none;
 }
 
 /*   Les Cards  */
@@ -62,114 +66,114 @@ ul li {
 
 .accueil img
 {
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  position:relative;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 .accueil img:before, .accueil img:after
 {
-  content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:0;
-    bottom:0;
-    left:10px;
-    right:10px;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
+content:"";
+  position:absolute;
+  z-index:-1;
+  -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  box-shadow:0 0 20px rgba(0,0,0,0.8);
+  top:0;
+  bottom:0;
+  left:10px;
+  right:10px;
+  -moz-border-radius:100px / 10px;
+  border-radius:100px / 10px;
 }
 .accueil img:after
 {
-  right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
+right:10px;
+  left:auto;
+  -webkit-transform:skew(8deg) rotate(3deg);
+     -moz-transform:skew(8deg) rotate(3deg);
+      -ms-transform:skew(8deg) rotate(3deg);
+       -o-transform:skew(8deg) rotate(3deg);
+          transform:skew(8deg) rotate(3deg);
 }
 
 #header-top {
-  background: linear-gradient(to right, #E55D87, #5FC3E4);
+background: linear-gradient(to right, #E55D87, #5FC3E4);
 }
 
 /* button get-btn */
 
 .services-item .get-btn{
-    transform: translateY(20px);
-    opacity: 0;
-    transition: 0.3s all;
-  }
-  .services-item:hover .get-btn{  
-    transform: translateY(0);
-    opacity: 1;   
-}
-.services-item .get-btn{
-  background-color: #E55D87;
   transform: translateY(20px);
   opacity: 0;
   transition: 0.3s all;
-  color: white;
+}
+.services-item:hover .get-btn{  
+  transform: translateY(0);
+  opacity: 1;   
+}
+.services-item .get-btn{
+background-color: #E55D87;
+transform: translateY(20px);
+opacity: 0;
+transition: 0.3s all;
+color: white;
 }
 .services-item:hover .get-btn{
-  
-  transform: translateY(0);
-  opacity: 1;
- 
+
+transform: translateY(0);
+opacity: 1;
+
 }
 
 .services-item button {
-  font-size: 0.8rem;
-  font-weight: 700;
-  outline: none;
-  border: none;
-  padding: 13px 30px;
-  text-transform: uppercase;
-  cursor: pointer;
+font-size: 0.8rem;
+font-weight: 700;
+outline: none;
+border: none;
+padding: 13px 30px;
+text-transform: uppercase;
+cursor: pointer;
 }
 
 /* image de réalisations */
 .services-item img {
-  border: 1px solid violet;
+border: 1px solid violet;
 } 
 
 /* star */
 
 .star {
-  font-size: 0.9rem;
-  color: goldenrod;
+font-size: 0.9rem;
+color: goldenrod;
 }
 
 /* FOOTER */
 footer {
-    background-color: #F5F4EF
+  background-color: #F5F4EF
 }
 
 .contact-flex{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: center;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-content: center;
 }
 @media (min-width: 700px){
 nav .categories {
-  padding-left: 400px;
+padding-left: 400px;
 }
 }
 
 
 /* Page Inscription */
 .formErrors{
-  color: red;
-  font-size: 0.8em;
+color: red;
+font-size: 0.8em;
 }
 
 /* Page liste des profils */
 #listeProfils {
-  font-family: 'Fredericka the Great', cursive;
+font-family: 'Fredericka the Great', cursive;
 }

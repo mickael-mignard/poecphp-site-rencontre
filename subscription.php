@@ -74,18 +74,17 @@ if (isset($_POST['login'])) {
     }
 
     // Picture file
-    if (!empty($_FILES['myPictureFile'])) {               
+    if (!empty($_FILES['myPictureFile'])) {
 
         if ('image/jpeg' == $_FILES['myPictureFile']['type']) {
             $fileType = $_FILES['myPictureFile']['type'];
             $userArray[$arrayLength]['picture'] = $_FILES['myPictureFile']['name'];
-        } 
+        }
 
         $uploaddir = 'assets/img/';
         $uploadfile = $uploaddir . basename($_FILES['myPictureFile']['name']);
-        $fileMoved = move_uploaded_file($_FILES['myPictureFile']['tmp_name'], $uploadfile);            
-
-    } 
+        $fileMoved = move_uploaded_file($_FILES['myPictureFile']['tmp_name'], $uploadfile);
+    }
 
     // Species
     if (isset($_POST['species']) && in_array($_POST['species'], $species)) {
@@ -106,16 +105,20 @@ if (isset($_POST['login'])) {
     $userArray[$arrayLength]['loving'] = "";
     $userArray[$arrayLength]['hating'] = "";
     $userArray[$arrayLength]['food'] = "";
-    $userArray[$arrayLength]['description'] = "";    
+    $userArray[$arrayLength]['description'] = "";
 
     if (empty($formErrors)) {
         $userJson = json_encode($userArray, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
         file_put_contents('db.json', $userJson);
     }
+    
 }
 ?>
 
 <div class="container pt-5">
+    <?php if (isset($_POST['login']) && empty($formErrors)) : ?>
+        <p class="fs-3 text-center text-success">Bravo, vous êtes inscrit ! <br>Vous pouvez maintenant vous connecter !</p>
+    <?php endif ?>
     <div class="row mt-5">
         <div class="col-4 offset-1" id="leftSide">
             <img class="img-fluid" src="assets/img/catDogLogin.jpg" />

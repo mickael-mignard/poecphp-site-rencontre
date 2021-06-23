@@ -4,7 +4,7 @@
 $userList = file_get_contents('db.json');
 $userArray = json_decode($userList, true);
 
-if(isset($_POST['login'])){
+if(isset($_POST['connexion'])){
     $formErrors = [];
     $regexNickname = '/^[a-zA-Z0-9 \-]+$/';
     // nickname
@@ -24,15 +24,20 @@ if(isset($_POST['login'])){
         $formErrors['password'] = 'Veuillez entrer votre mot de passe';
     }
 
-    foreach($userArray as $user){
-        if($user['nickname'] == $_POST['nickname'] && $user['password'] == $_POST['password']){
+    for($i = 0; $i < count($userArray); $i++){
+        if($userArray[$i]['nickname'] == $_POST['nickname'] && $userArray[$i]['password'] == $_POST['password']){
             $_SESSION['nickname'] = $_POST['nickname']; 
+            $_SESSION['id'] = $i;
             header('location: index.php');      
         }else{
             $formErrors['connection'] = 'Vous avez mal tapé votre pseudo ou votre mot de passe. Veuillez réessayer.';
         }
-    }    
+    }   
 }
+if(isset($_POST['subscribe']) && empty($formErrors)){
+    header('location: subscription.php');
+}
+
 ?>
 <div class="container-fluid">
     <div class="row mt-5">
